@@ -48,7 +48,7 @@ h6 {
 }
 
 section.order {
-    background-color: #2E2F42;
+    background-color: var(--primary-color);
 }
 
 section.order .button {
