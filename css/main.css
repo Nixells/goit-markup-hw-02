@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #2E2F42;
+    --web: #4D5AE5;
+    --body-color: #434455;
+    --white-color: #ffffff;
+}
+
+body {
+    color:var(--body-color);
+}
+
+.nav .nav-navigation > a {
+    color:var(--primary-color)
+}
+
+.nav .nav-navigation>a:hover,
+.nav .nav-navigation>a:focus {
+    color:var(--web)
+}
+
+nav .navsec-navigation {
+    color: var(--body-color);
+}
+
+nav .navsec-navigation:hover,
+nav .navsec-navigation:focus {
+    color: var(--web)
+}
+
+span.web {
+    color:var(--web);
+}
+
+span.studio {
+    color:var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:var(--primary-color)
+}
+
+.white {
+    color: var(--white-color);
+}
+
+section.order {
+    background-color: #2E2F42;
+}
+
+section.order .button {
+    color: var(--white-color);
+    background-color: var(--web);
+}
